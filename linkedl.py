@@ -86,6 +86,9 @@ class linked_list:
 if __name__ == '__main__':
     ll = linked_list()
     ll.insert_values(["mango", "apple", "orange", "banana"])
-    # ll.remove_at(2)  # Removes "orange"
-    ll.insert_at(2,"kiwi")
+    # # ll.remove_at(2)  # Removes "orange"
+    # ll.insert_at(2,"kiwi")
+    
+    # ll.insert_at_begining(35)
+    # ll.insert_at_end(78)
     ll.print()
